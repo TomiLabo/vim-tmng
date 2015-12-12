@@ -1,5 +1,9 @@
 # VIM TmngDocument Syntax
 
+[![Build Status](https://travis-ci.org/MaxMEllon/vim-tmng.svg?branch=master)](https://travis-ci.org/MaxMEllon/vim-tmng)
+[![Release](https://img.shields.io/github/release/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMEllon/vim-tmng/releases/latest)
+[![License](https://img.shields.io/github/license/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMEllon/vim-tmng/blob/master/LICENSE.txt)
+
 ## About
 
 ![demo](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng.png)
@@ -23,17 +27,23 @@ This is a vim syntax file for TmngDocument.
 Bundle 'MaxMEllon/tmng-vim'
 ```
 
+execute `:BendleInstall`
+
 - NeoBundle
 
 ```vim
 NeoBundle 'MaxMEllon/tmng-vim'
 ```
 
+execute `:NeoBendleInstall`
+
 - vim-plug
 
 ```vim
 Plug 'MaxMEllon/tmng-vim'
 ```
+
+execute `:PlagInstall`
 
 ## LISENCE
 
