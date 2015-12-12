@@ -1,16 +1,22 @@
+scriptencoding utf-8
 " Vim syntax file
 " Language:     TmngDocument
 " Maintainer:   MaxMellon
 " TODO:         There are some bugs, add << >>
 
-if exists("b:current_syntax") | finish | endif
-if version < 600 | syntax clear | endif
+if exists('b:current_syntax')
+  finish
+endif
 
-let s:cpo_orig=&cpo
-set cpo&vim
+if v:version < 600
+  syntax clear
+endif
+
+let s:cpo_orig=&cpoptions
+set cpoptions&vim
 
 " syntax {{{
-let b:current_syntax = "tmng"
+let b:current_syntax = 'tmng'
 
 syntax match TmngH1 /■[^■]*$/ contains=TmngProject,TmngSubProject
 syntax match TmngH1 /□[^□]*$/ contains=TmngProject,TmngSubProject
@@ -41,6 +47,6 @@ highlight default link TmngProject Constant
 highlight default link TmngSubProject Number
 " }}}
 
-let &cpo=s:cpo_orig
+let &cpoptions=s:cpo_orig
 unlet s:cpo_orig
 
