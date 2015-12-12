@@ -2,7 +2,7 @@
 
 ## About
 
-[demo](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng.png)
+![demo](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng.png)
 
 This is a vim syntax file for TmngDocument.
 
