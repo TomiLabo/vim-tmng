@@ -17,6 +17,9 @@ This is a vim syntax file for TmngDocument.
 - [x] project
 - [x] SubProject
 - [x] remarks
+- [x] place
+- [x] date
+- [x] time
 - [ ] ToMarkdown
 
 ## Installation
@@ -44,6 +47,10 @@ Plug 'MaxMEllon/tmng-vim'
 ```
 
 execute `:PlagInstall`
+
+## Contribute
+
+KagawaUniv School Programing Project Member only.
 
 ## LISENCE
 
