@@ -1,7 +1,7 @@
 # VIM TmngDocument Syntax
 
 [![Build Status](https://travis-ci.org/MaxMEllon/vim-tmng.svg?branch=master)](https://travis-ci.org/MaxMEllon/vim-tmng)
-[![Issues](http://img.shields.io/github/issues/MaxMEllon/vim-tmng.vim.svg)](https://github.com/MaxMellon/vim-tmng/issues)
+[![Issues](http://img.shields.io/github/issues/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMellon/vim-tmng/issues)
 [![Release](https://img.shields.io/github/release/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMEllon/vim-tmng/releases/latest)
 [![License](https://img.shields.io/github/license/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMEllon/vim-tmng/blob/master/LICENSE.txt)
 
