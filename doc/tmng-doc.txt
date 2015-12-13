@@ -6,14 +6,14 @@ License                                        |vim-tmng-license|
 Install                                        |vim-tmng-install|
 
 ==============================================================================
-USAGE                                       *:TmngCreateTmplate* *vim-tmng-usage*
+USAGE                                     *:TmngCreateTemplate* *vim-tmng-usage*
 
 - Generate Tmng Document Template current buffer. >
 
     :TmngCreateTmplate
 <
 ==============================================================================
-TIPS                                                      *:TmngCreateTmplate*
+TIPS                                                           *vim-tmng-tips*
 
 If you set 'g:tmng#student_id', vim-tmng will add student id to header. >
 
