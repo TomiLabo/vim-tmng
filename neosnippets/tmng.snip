@@ -1,0 +1,30 @@
+snippet head
+abbr    ■ s00t000 ...
+alias   h1
+options head
+  ■ s${0:00}t${1:000} [${2:proj}] ${3:title}
+
+snippet title
+abbr    ● title
+alias   h2
+  ● ${0:title}
+
+snippet subtitle
+abbr    ◎ subtitle
+alias   h3
+  ◎ ${0:subtitle}
+
+snippet list
+abbr    ○ list
+  ○ ${0:list}
+
+snippet work
+abbr    ○ [0000] subject
+alias   li
+  ○ [${0:0000}] ${1:subject}
+
+snippet schedule
+abbr    ○ 20xx.xx.xx(XX) ....
+alias   date
+  ○ ${0:2000}.${1:00}.${2:00}(${3:月}) ${4:event} [${5:name}] ${6:00}:${7:00}-${8:00}:${9:00} (${10:genre}) <${11:place}>
+
