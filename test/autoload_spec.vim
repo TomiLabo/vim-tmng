@@ -1,14 +1,12 @@
-source plugin/tmng.vim
 source autoload/tmng.vim
 
 function! TestTmngCreateHead()
   call Describe('tmng#create_header : case1')
-  let g:tmng_student_id = 's12t234'
-  call AssertEquals(tmng#create_header(), '■ s12t234 [] ' .  strftime('%Y.%m.%d(%a)'))
+  call AssertEquals(tmng#create_header(), '■ s00t000 [] ' .  strftime('%Y.%m.%d(%a)'))
 
   call Describe('tmng#create_header : case2')
-  let g:tmng_student_id = ''
-  call AssertEquals(tmng#create_header(), '■ s00t000 [] ' .  strftime('%Y.%m.%d(%a)'))
+  let g:tmng_student_id = 's12t234'
+  call AssertEquals(tmng#create_header(), '■ s12t234 [] ' .  strftime('%Y.%m.%d(%a)'))
 endfunction
 
 function! TestTmngCreateTitle()

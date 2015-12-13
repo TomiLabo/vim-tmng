@@ -6,6 +6,14 @@ scriptencoding urf-8
 let s:cpo_orig = &cpoptions
 set cpoptions&vim
 
+let s:TRUE = !0
+let s:FALSE = 0
+let s:EMPTY = ''
+
+let g:tmng_student_id = get(g:, 'tmng_student_id', 's00t000')
+let g:tmng_title_template = get(g:, 'tmng_title_template', s:EMPTY)
+let g:tmng_subtitle_template = get(g:, 'tmng_subtitle_template', s:EMPTY)
+
 function! tmng#create_template() abort
   let s:head = tmng#create_header()
   let s:title = tmng#create_title()
