@@ -9,6 +9,7 @@ install:
   - sudo apt-get update -q
   - sudo apt-get install vim-nox
   - sudo pip install vim-vint
+  - npm install -g coffee-script vimspec
 
 before_script:
   - vim --version
@@ -16,4 +17,5 @@ before_script:
 
 script:
   - vint --color --style ./ftdetect/tmng.vim ./ftplugin/tmng.vim ./syntax/tmng.vim
+  - vimspec
 
