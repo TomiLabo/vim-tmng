@@ -105,7 +105,7 @@ let g:tmng#subtitle_template = '技術演習６'
 
 ## Contribute
 
-KagawaUniv School Programing Project Member only.
+KagawaUniv Student Laboratory Project Member only.
 
 ## LISENCE
 
