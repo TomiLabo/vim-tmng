@@ -52,7 +52,7 @@ execute `:PlagInstall`
 
 ## Command
 
-`:TmngCreateTmplate   (filetype txt and tmng only)`
+`:TmngCreateTmplate`   (filetype txt and tmng only)
 
 ```txt
 ■ s00t000 [] 2015.12.13(日)
