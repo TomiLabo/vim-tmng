@@ -16,6 +16,6 @@ before_script:
   - vint --version
 
 script:
-  - vint --color --style ./ftdetect/tmng.vim ./ftplugin/tmng.vim ./syntax/tmng.vim
+  - vint --color --style ./**/*.vim
   - vimspec
 
