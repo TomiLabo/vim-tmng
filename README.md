@@ -29,10 +29,10 @@ This is a vim syntax file for TmngDocument.
 - Vundle
 
 ```vim
-Bundle 'MaxMEllon/vim-tmng'
+Plugin 'MaxMEllon/vim-tmng'
 ```
 
-execute `:BundleInstall`
+execute `:PluginInstall`
 
 - NeoBundle
 
