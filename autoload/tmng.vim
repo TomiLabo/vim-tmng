@@ -19,7 +19,7 @@ function! tmng#create_header() abort
     let g:tmng_student_id = 's00t000'
   endif
   let s:header = '■ ' . g:tmng_student_id . ' '
-        \      . '[]' . ' ' . strftime('%Y.%m.%d(%a\)')
+        \      . '[]' . ' ' . strftime('%Y.%m.%d(%a)')
   return s:header
 endfunction
 
