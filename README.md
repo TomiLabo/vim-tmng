@@ -29,23 +29,23 @@ This is a vim syntax file for TmngDocument.
 - Vundle
 
 ```vim
-Bundle 'MaxMEllon/tmng-vim'
+Bundle 'MaxMEllon/vim-tmng'
 ```
 
-execute `:BendleInstall`
+execute `:BundleInstall`
 
 - NeoBundle
 
 ```vim
-NeoBundle 'MaxMEllon/tmng-vim'
+NeoBundle 'MaxMEllon/vim-tmng'
 ```
 
-execute `:NeoBendleInstall`
+execute `:NeoBundleInstall`
 
 - vim-plug
 
 ```vim
-Plug 'MaxMEllon/tmng-vim'
+Plug 'MaxMEllon/vim-tmng'
 ```
 
 execute `:PlagInstall`
