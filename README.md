@@ -68,27 +68,27 @@ execute `:PlagInstall`
 
 ## Configuration
 
-- g:tmng_student_id
+- g:tmng#student_id
 
 ```vim
 let g:tmng_student_id  " default student id
 
 " example :
-let g:tmng_student_id = 's10t200'
+let g:tmng#student_id = 's10t200'
 
 "=> ■ s10t200 [] 2015.12.13(日)
 ```
 
-- g:tmng_title_template
-- g:tmng_subtitle_template
+- g:tmng#title_template
+- g:tmng#subtitle_template
 
 ```vim
-let g:tmng_title_template      " default title
-let g:tmng_subtitle_template   " default subtitle
+let g:tmng#title_template      " default title
+let g:tmng#subtitle_template   " default subtitle
 
 " execute
-let g:tmng_title_template    = '課題ページ'
-let g:tmng_subtitle_template = '技術演習６'
+let g:tmng#title_template    = '課題ページ'
+let g:tmng#subtitle_template = '技術演習６'
 
 "=> ● 課題ページ
 "=> ◎ 技術演習６
@@ -97,9 +97,9 @@ let g:tmng_subtitle_template = '技術演習６'
 ## Sample vimrc
 
 ```vim
-let g:tmng_student_id = 's10t200'
-let g:tmng_title_template    = '課題ページ'
-let g:tmng_subtitle_template = '技術演習６'
+let g:tmng#student_id = 's10t200'
+let g:tmng#title_template    = '課題ページ'
+let g:tmng#subtitle_template = '技術演習６'
 ```
 
 ## Contribute
