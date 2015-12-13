@@ -7,9 +7,10 @@
 
 ## About
 
-![demo](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng.png)
-
 This is a vim syntax file for TmngDocument.
+
+![demo1](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng.png)
+![demo2](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng_anime.gif)
 
 ## Feature
 
