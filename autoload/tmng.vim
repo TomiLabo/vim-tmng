@@ -10,9 +10,9 @@ let s:TRUE = !0
 let s:FALSE = 0
 let s:EMPTY = ''
 
-let g:tmng_student_id = get(g:, 'tmng_student_id', 's00t000')
-let g:tmng_title_template = get(g:, 'tmng_title_template', s:EMPTY)
-let g:tmng_subtitle_template = get(g:, 'tmng_subtitle_template', s:EMPTY)
+let g:tmng#student_id        = get(g:, 'tmng#student_id', 's00t000')
+let g:tmng#title_template    = get(g:, 'tmng#title_template', s:EMPTY)
+let g:tmng#subtitle_template = get(g:, 'tmng#subtitle_template', s:EMPTY)
 
 function! tmng#create_template() abort
   let s:head = tmng#create_header()
@@ -23,18 +23,18 @@ function! tmng#create_template() abort
 endfunction
 
 function! tmng#create_header() abort
-  let s:header = '■ ' . g:tmng_student_id . ' '
+  let s:header = '■ ' . g:tmng#student_id . ' '
         \      . '[]' . ' ' . strftime('%Y.%m.%d(%a)')
   return s:header
 endfunction
 
 function! tmng#create_title() abort
-  let s:title = '● ' . g:tmng_title_template
+  let s:title = '● ' . g:tmng#title_template
   return s:title
 endfunction
 
 function! tmng#create_subtitle() abort
-  let s:subtitle = '◎ ' . g:tmng_subtitle_template
+  let s:subtitle = '◎ ' . g:tmng#subtitle_template
   return s:subtitle
 endfunction
 
