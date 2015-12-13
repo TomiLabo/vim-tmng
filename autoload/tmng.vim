@@ -58,5 +58,14 @@ function! tmng#puts_template(head, title, subtitle, schedule) abort
   call append(10, '')
 endfunction
 
+function! tmng#replace_dot_and_comma() abort
+  let typo = {}
+  let typo['，'] = '、'
+  let typo[', '] = '、'
+  let typo['. '] = '。'
+  let typo['．'] = '。'
+  execute ':%s/' . join(keys(typo), '\|') . '/\=typo[submatch(0)]/ge'
+endfunction
+
 let &cpoptions = s:cpo_orig
 unlet s:cpo_orig

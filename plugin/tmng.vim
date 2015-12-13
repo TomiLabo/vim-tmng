@@ -15,6 +15,9 @@ set cpoptions&vim
 command! TmngCreateTmplate
       \ call tmng#create_template()
 
+command! TmngReplaceDotAndComma
+      \ call tmng#replace_dot_and_comma()
+
 if !exists('g:md2tmng_executable_script')
   let g:md2tmng_executable_script = 'md2tmng'
 endif

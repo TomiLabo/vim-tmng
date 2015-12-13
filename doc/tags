@@ -1,4 +1,5 @@
 :TmngCreateTemplate	tmng-doc.txt	/*:TmngCreateTemplate*
+:TmngReplaceDotAndComma	tmng-doc.txt	/*:TmngReplaceDotAndComma*
 https://github.com/MaxMEllon/vimtmng	tmng-doc.txt	/*https:\/\/github.com\/MaxMEllon\/vimtmng*
 vim-tmng	tmng-doc.txt	/*vim-tmng*
 vim-tmng-install	tmng-doc.txt	/*vim-tmng-install*
