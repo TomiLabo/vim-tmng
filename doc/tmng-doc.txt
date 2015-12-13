@@ -14,7 +14,7 @@ USAGE                                     *:TmngCreateTemplate* *vim-tmng-usage*
 <
                                                       *:TmngReplaceDotAndComma*
 
-- Replace ', ' '，' to '、' and '. ' '．' to '。' of current buffer. >
+- Replace '，' to '、' and '．' to '。' of current buffer. >
 
     :TmngReplaceDotAndComma
 
