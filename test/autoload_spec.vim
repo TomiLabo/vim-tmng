@@ -1,3 +1,4 @@
+source plugin/tmng.vim
 source autoload/tmng.vim
 
 function! TestTmngCreateHead()
@@ -6,7 +7,7 @@ function! TestTmngCreateHead()
   call AssertEquals(tmng#create_header(), '■ s12t234 [] ' .  strftime('%Y.%m.%d(%a)'))
 
   call Describe('tmng#create_header : case2')
-  unlet g:tmng_student_id
+  let g:tmng_student_id = ''
   call AssertEquals(tmng#create_header(), '■ s00t000 [] ' .  strftime('%Y.%m.%d(%a)'))
 endfunction
 
@@ -16,7 +17,7 @@ function! TestTmngCreateTitle()
   call AssertEquals(tmng#create_title(), '● 技術演習６')
 
   call Describe('tmng#create_title : case2')
-  unlet g:tmng_title_template
+  let g:tmng_title_template = ''
   call AssertEquals(tmng#create_title(), '● ')
 endfunction
 
@@ -26,7 +27,7 @@ function! TestTmngCreateSubTitle()
   call AssertEquals(tmng#create_subtitle(), '◎ 課題ページ')
 
   call Describe('tmng#create_subtitle : case2')
-  unlet g:tmng_subtitle_template
+  let g:tmng_subtitle_template = ''
   call AssertEquals(tmng#create_subtitle(), '◎ ')
 endfunction
 

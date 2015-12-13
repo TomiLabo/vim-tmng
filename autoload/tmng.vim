@@ -15,26 +15,17 @@ function! tmng#create_template() abort
 endfunction
 
 function! tmng#create_header() abort
-  if !exists('g:tmng_student_id')
-    let g:tmng_student_id = 's00t000'
-  endif
   let s:header = '■ ' . g:tmng_student_id . ' '
         \      . '[]' . ' ' . strftime('%Y.%m.%d(%a)')
   return s:header
 endfunction
 
 function! tmng#create_title() abort
-  if !exists('g:tmng_title_template')
-    let g:tmng_title_template = ''
-  endif
   let s:title = '● ' . g:tmng_title_template
   return s:title
 endfunction
 
 function! tmng#create_subtitle() abort
-  if !exists('g:tmng_subtitle_template')
-    let g:tmng_subtitle_template = ''
-  endif
   let s:subtitle = '◎ ' . g:tmng_subtitle_template
   return s:subtitle
 endfunction
