@@ -14,16 +14,10 @@ This is a vim syntax file for TmngDocument.
 
 ## Feature
 
-- [x] head
-- [x] title
-- [x] project
-- [x] SubProject
-- [x] remarks
-- [x] place
-- [x] date
-- [x] time
-- [x] create template
-- [ ] ToMarkdown
+- syntax highlight
+- snippets for tmng document (depends on neosnippets)
+- Replace `，` to `、` and `．` to `。`
+- CretateTemplate
 
 ## Installation
 
@@ -67,6 +61,22 @@ execute `:PlagInstall`
 ○ 2015.12.13(日) Event [Auter] 00:00-00:00 (Type) <Place>
 ○ 2015.12.13(日) Event [Auter] 00:00-00:00 (Type) <Place>
 ```
+
+`:TmngReplaceDotAndComma`
+
+```txt
+ああああ，いいいい．  => ああああ、いいいい。
+```
+
+## Snippets
+
+- head
+- title
+- subtitle
+- list
+- work
+- schedule
+
 
 ## Configuration
 
