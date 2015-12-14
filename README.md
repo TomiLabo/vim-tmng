@@ -1,4 +1,6 @@
-# VIM TmngDocument Syntax
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MaxMEllon/demos/master/logo_vim_tmng.png">
+</p>
 
 [![Build Status](https://travis-ci.org/MaxMEllon/vim-tmng.svg?branch=master)](https://travis-ci.org/MaxMEllon/vim-tmng)
 [![Issues](http://img.shields.io/github/issues/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMellon/vim-tmng/issues)
