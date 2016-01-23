@@ -1,8 +1,8 @@
-scriptencoding utf-8
 " Vim syntax file
 " Language:     TmngDocument
 " Maintainer:   MaxMellon
 " TODO:         There are some bugs, add << >>
+scriptencoding utf-8
 
 if exists('b:current_syntax')
   finish
@@ -31,7 +31,7 @@ syntax match TmngPlace /\zs<.*>/ contained
 syntax match TmngEvent /\zs(.*)/ contained
 syntax match TmngProject /\[[A-z]*\]*/ contained
 syntax match TmngSubProject /{[A-z]*}*/ contained
-syntax match TmngRemarks /\v[●\ 備考[^●]*$|■\ 備考[^■]*$]/
+syntax match TmngRemarks /\v^[●\ 備考[^●]*$|■\ 備考[^■]*$]/
 
 highlight default link TmngH1 Statement
 highlight default link TmngH2 Structure
