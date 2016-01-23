@@ -18,11 +18,11 @@ set cpoptions&vim
 " syntax {{{
 let b:current_syntax = 'tmng'
 
-syntax match TmngH1 /■[^■]*$/ contains=TmngProject,TmngSubProject
-syntax match TmngH1 /□[^□]*$/ contains=TmngProject,TmngSubProject
-syntax match TmngH2 /●[^●]*$/
-syntax match TmngH3 /◎[^◎]*$/
-syntax match TmngList /○[^○]*$/
+syntax match TmngH1 /■\ [^■]*$/ contains=TmngProject,TmngSubProject
+syntax match TmngH1 /□\ [^□]*$/ contains=TmngProject,TmngSubProject
+syntax match TmngH2 /●\[^●]*$/
+syntax match TmngH3 /◎\ [^◎]*$/
+syntax match TmngList /○\ [^○]*$/
     \ contains=TmngDate,TmngPlace,TmngEvent,TmngBold,TmngTime
 syntax match TmngDate /\v\d+(\.+\d+)+(\([日|月|火|水|木|金|土]+\))+/ contained
 syntax match TmngBold /\[.*\]/ contained
