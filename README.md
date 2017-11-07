@@ -2,17 +2,12 @@
   <img src="https://raw.githubusercontent.com/TomiLabo/demos/master/logo_vim_tmng.png">
 </p>
 
-[![Build Status](https://travis-ci.org/TomiLabo/vim-tmng.svg?branch=master)](https://travis-ci.org/TomiLabo/vim-tmng)
-[![Issues](http://img.shields.io/github/issues/TomiLabo/vim-tmng.svg)](https://github.com/MaxMellon/vim-tmng/issues)
-[![Release](https://img.shields.io/github/release/TomiLabo/vim-tmng.svg)](https://github.com/TomiLabo/vim-tmng/releases/latest)
-[![License](https://img.shields.io/github/license/TomiLabo/vim-tmng.svg)](https://github.com/TomiLabo/vim-tmng/blob/master/LICENSE.txt)
-
 ## About
 
 This is a vim syntax file for TmngDocument.
 
-![demo1](https://raw.githubusercontent.com/TomiLabo/demos/master/vim_tmng.png)
-![demo2](https://raw.githubusercontent.com/TomiLabo/demos/master/vim_tmng_anime.gif)
+![demo1](https://raw.githubusercontent.com/maxmellon/demos/master/vim_tmng.png)
+![demo2](https://raw.githubusercontent.com/maxmellon/demos/master/vim_tmng_anime.gif)
 
 ## Feature
 
