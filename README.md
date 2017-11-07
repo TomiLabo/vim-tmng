@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MaxMEllon/demos/master/logo_vim_tmng.png">
+  <img src="https://raw.githubusercontent.com/TomiLabo/demos/master/logo_vim_tmng.png">
 </p>
 
-[![Build Status](https://travis-ci.org/MaxMEllon/vim-tmng.svg?branch=master)](https://travis-ci.org/MaxMEllon/vim-tmng)
-[![Issues](http://img.shields.io/github/issues/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMellon/vim-tmng/issues)
-[![Release](https://img.shields.io/github/release/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMEllon/vim-tmng/releases/latest)
-[![License](https://img.shields.io/github/license/MaxMEllon/vim-tmng.svg)](https://github.com/MaxMEllon/vim-tmng/blob/master/LICENSE.txt)
+[![Build Status](https://travis-ci.org/TomiLabo/vim-tmng.svg?branch=master)](https://travis-ci.org/TomiLabo/vim-tmng)
+[![Issues](http://img.shields.io/github/issues/TomiLabo/vim-tmng.svg)](https://github.com/MaxMellon/vim-tmng/issues)
+[![Release](https://img.shields.io/github/release/TomiLabo/vim-tmng.svg)](https://github.com/TomiLabo/vim-tmng/releases/latest)
+[![License](https://img.shields.io/github/license/TomiLabo/vim-tmng.svg)](https://github.com/TomiLabo/vim-tmng/blob/master/LICENSE.txt)
 
 ## About
 
 This is a vim syntax file for TmngDocument.
 
-![demo1](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng.png)
-![demo2](https://raw.githubusercontent.com/MaxMEllon/demos/master/vim_tmng_anime.gif)
+![demo1](https://raw.githubusercontent.com/TomiLabo/demos/master/vim_tmng.png)
+![demo2](https://raw.githubusercontent.com/TomiLabo/demos/master/vim_tmng_anime.gif)
 
 ## Feature
 
@@ -23,29 +23,17 @@ This is a vim syntax file for TmngDocument.
 
 ## Installation
 
-- Vundle
-
 ```vim
-Plugin 'MaxMEllon/vim-tmng'
+Plug 'TomiLabo/vim-tmng'
+NeoBundle 'TomiLabo/vim-tmng'
 ```
 
-execute `:PluginInstall`
-
-- NeoBundle
+- with onion
 
 ```vim
-NeoBundle 'MaxMEllon/vim-tmng'
+Plug 'TomiLabo/vim-tmng', {'do': 'go get -u github.com/TomiLabo/onion/cmd/onion'}
+NeoBundle 'TomiLabo/vim-tmng', {'make': 'go get -u github.com/TomiLabo/onion/cmd/onion'}
 ```
-
-execute `:NeoBundleInstall`
-
-- vim-plug
-
-```vim
-Plug 'MaxMEllon/vim-tmng'
-```
-
-execute `:PlagInstall`
 
 ## Command
 
