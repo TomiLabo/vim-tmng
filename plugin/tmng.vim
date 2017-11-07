@@ -3,11 +3,11 @@ scriptencoding urf-8
 " Language:     TmngDocument
 " Maintainer:   maxmellon
 
-if exists('g:loaded_tmng_ftplugin')
+if exists('g:loaded_tmng_plugin')
   finish
 endif
 
-let g:loaded_tmng_ftplugin = 1
+let g:loaded_tmng_plugin = 1
 
 let s:cpo_orig = &cpoptions
 set cpoptions&vim
