@@ -9,6 +9,10 @@ This is a vim syntax file for TmngDocument.
 ![demo1](https://raw.githubusercontent.com/maxmellon/demos/master/vim_tmng.png)
 ![demo2](https://raw.githubusercontent.com/maxmellon/demos/master/vim_tmng_anime.gif)
 
+- with [onion](https://github.com/TomiLabo/onion)
+
+![demo with onion](https://raw.githubusercontent.com/MaxMEllon/demos/master/onion/demo.gif)
+
 ## Feature
 
 - syntax highlight
