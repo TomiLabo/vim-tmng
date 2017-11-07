@@ -4,7 +4,7 @@ scriptencoding urf-8
 " Maintainer:   maxmellon
 
 setlocal makeprg=onion\ -f=errorformats\ %
-setlocal errorformat=%f\|%l\ col\ %c\|\ %mk
+setlocal errorformat=%f\|%l\ col\ %c\|\ %m
 
 if executable('onion')
   augroup vim-tmng
