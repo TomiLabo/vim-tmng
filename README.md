@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TomiLabo/demos/master/logo_vim_tmng.png">
+  <img src="https://raw.githubusercontent.com/maxmellon/demos/master/logo_vim_tmng.png">
 </p>
 
 ## About
